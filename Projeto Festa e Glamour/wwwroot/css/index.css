@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+:root {
+    --darkiest-color: #CD853F;   
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    min-height: 100vh;
+}
+main{
+    min-height: calc(100vh - 100px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bem-vindo{
+    color: var(--darkiest-color) !important;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--darkiest-color) !important;
+}
+
+p {
+    color: var(--dark-color);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--orange-color);
+    border-radius: 50px;
+}
+
+input:focus, select:focus{
+    outline: 4px solid var(--darkless-color) !important;
+}
+select option:hover{
+    background-color: var(--darkless-color);
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 3.5em 0 2em 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    /* padding-bottom: 30px; */
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+    position: relative;
+    color: var(--darkiest-color);
+}
+
+
+footer {
+    max-height: 85px;
+    padding-top: .8em;
+}
+
+
+.page-maneger{
+    background-color: var(--white-color);
+    margin-top: 2.5em;
+    border-radius: 8px;
+    box-shadow: 2px 0 10px -2px var(--darkiest-color);
+    height: 590px;
+    overflow: hidden;
+}
+/* Estilo básico para o select */
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Ajuste a largura conforme necessário */
+    max-width: 100%; /* Garante que o select não ultrapasse a largura do seu contêiner */
+    box-sizing: border-box; /* Inclui o padding e a borda na largura total */
+}
+
+/* Estilo para as opções dentro do select */
+option {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 8px;
+    font-size: 16px;
+}
+
+/* Estilo para quando o select está focado */
+select:focus {
+    outline: none; /* Remove a borda ao focar */
+    border-color: #66afe9; /* Cor da borda quando focado */
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.6); /* Sombra ao redor do select */
+}
+  /* Estilo básico para o select */
+  select {
+    padding: 8px 12px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Cantos arredondados */
+    appearance: none; /* Remove o estilo padrão do sistema operacional */
+    background-color: #f3f3f3; /* Cor de fundo */
+    width: 300px; /* Largura */
+    max-width: 100%; /* Largura máxima */
+    cursor: pointer; /* Ícone de cursor */
+}
+
+/* Estilizando a seta do select (para navegadores que suportam) */
+select::-ms-expand {
+    display: none;
+}
+
+/* Estilo para as opções do select */
+option {
+    padding: 8px 12px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+}
+button{
+    background-color: #deb11b !important;
+    border: none !important;
+    
+}
+
+button:hover{
+    background-color: #CD853F !important;
+    
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Projeto Festa e Glamour.props" />
+</Project>

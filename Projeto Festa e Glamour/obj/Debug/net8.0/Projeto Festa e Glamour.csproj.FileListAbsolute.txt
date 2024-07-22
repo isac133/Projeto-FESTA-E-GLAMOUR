@@ -1,0 +1,30 @@
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\appsettings.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\Projeto Festa e Glamour.staticwebassets.runtime.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\Projeto Festa e Glamour.exe
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\Projeto Festa e Glamour.deps.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\Projeto Festa e Glamour.runtimeconfig.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\Projeto Festa e Glamour.dll
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\bin\Debug\net8.0\Projeto Festa e Glamour.pdb
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.AssemblyInfoInputs.cache
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.AssemblyInfo.cs
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.csproj.CoreCompileInputs.cache
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.RazorAssemblyInfo.cache
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.RazorAssemblyInfo.cs
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets\msbuild.Projeto Festa e Glamour.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets\msbuild.build.Projeto Festa e Glamour.props
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Projeto Festa e Glamour.props
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Projeto Festa e Glamour.props
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\scopedcss\bundle\Projeto Festa e Glamour.styles.css
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\scopedcss\projectbundle\Projeto Festa e Glamour.bundle.scp.css
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.dll
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\refint\Projeto Festa e Glamour.dll
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.pdb
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\Projeto Festa e Glamour.genruntimeconfig.cache
+C:\Users\Aluno Noite\source\repos\Projeto Festa e Glamour\Projeto Festa e Glamour\obj\Debug\net8.0\ref\Projeto Festa e Glamour.dll
