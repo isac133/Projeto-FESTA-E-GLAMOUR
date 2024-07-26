@@ -4,28 +4,28 @@ using System.Diagnostics;
 
 namespace Projeto_Festa_e_Glamour.Controllers
 {
-    public class UsuarioController : Controller
+    public class AgendamentoController : Controller
     {
-        private readonly ILogger<UsuarioController> _logger;
+        private readonly ILogger<AgendamentoController> _logger;
 
-        public UsuarioController(ILogger<UsuarioController> logger)
+        public AgendamentoController(ILogger<AgendamentoController> logger)
         {
             _logger = logger;
+        }
+
+        public IActionResult AgendamentoClienteIndex()
+        {
+            return View();
+        }
+
+        public IActionResult CadastroAgendamento()
+        {
+            return View();
         }
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Login()
-        {
-            return View();
-        }
-
-        public IActionResult Cadastro()
-        {
-            return View();
-        }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
