@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno Noite\\source\\repos\\Projeto Festa e Glamour\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj": {}
+    "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno Noite\\source\\repos\\Projeto Festa e Glamour\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj": {
+    "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno Noite\\source\\repos\\Projeto Festa e Glamour\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj",
         "projectName": "Projeto Festa e Glamour",
-        "projectPath": "C:\\Users\\Aluno Noite\\source\\repos\\Projeto Festa e Glamour\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj",
+        "projectPath": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj",
         "packagesPath": "C:\\Users\\Aluno Noite\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno Noite\\source\\repos\\Projeto Festa e Glamour\\Projeto Festa e Glamour\\obj\\",
+        "outputPath": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",

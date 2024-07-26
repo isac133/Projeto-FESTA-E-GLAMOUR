@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\views\\usuario\\cadastro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Projeto Festa e Glamour\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T14:14:42.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Usuario\\Cadastro.cshtml",
+              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Views\\Usuario\\Cadastro.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Usuario\\Cadastro.cshtml",
+              "RelativeToolTip": "Projeto Festa e Glamour\\Views\\Usuario\\Cadastro.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T14:14:22.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Projeto Festa e Glamour\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAG0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T14:13:44.968Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
