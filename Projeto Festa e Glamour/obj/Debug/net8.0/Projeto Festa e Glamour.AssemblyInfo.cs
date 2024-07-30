@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto Festa e Glamour")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00074eb6a82f88914046a7f05c4904736512cc44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ede06da28a93b5b03cbcaf8de956144c20d0123d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto Festa e Glamour")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto Festa e Glamour")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

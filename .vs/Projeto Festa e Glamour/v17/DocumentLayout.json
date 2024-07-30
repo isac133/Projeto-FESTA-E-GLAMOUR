@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\views\\agendamento\\cadastroagendamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\views\\agendamento\\cadastroagendamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\views\\agendamento\\agendamentoclienteindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\views\\agendamento\\agendamentoclienteindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|c:\\users\\aluno noite\\desktop\\projeto-festa-e-gla\\projeto festa e glamour\\views\\servico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1AD64002-A7AD-423C-AA55-A62BAFCEB3E8}|Projeto Festa e Glamour\\Projeto Festa e Glamour.csproj|solutionrelative:projeto festa e glamour\\views\\servico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CadastroAgendamento.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Agendamento\\CadastroAgendamento.cshtml",
-              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Views\\Agendamento\\CadastroAgendamento.cshtml",
-              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Agendamento\\CadastroAgendamento.cshtml",
-              "RelativeToolTip": "Projeto Festa e Glamour\\Views\\Agendamento\\CadastroAgendamento.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T13:44:15.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgendamentoClienteIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Agendamento\\AgendamentoClienteIndex.cshtml",
-              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Views\\Agendamento\\AgendamentoClienteIndex.cshtml",
-              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Agendamento\\AgendamentoClienteIndex.cshtml",
-              "RelativeToolTip": "Projeto Festa e Glamour\\Views\\Agendamento\\AgendamentoClienteIndex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T13:43:55.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Projeto Festa e Glamour\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAEMAAAAYAAAA",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Servico\\Index.cshtml",
+              "RelativeDocumentMoniker": "Projeto Festa e Glamour\\Views\\Servico\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Projeto-Festa-e-GLA\\Projeto Festa e Glamour\\Views\\Servico\\Index.cshtml",
+              "RelativeToolTip": "Projeto Festa e Glamour\\Views\\Servico\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T13:43:03.041Z",
+              "WhenOpened": "2024-07-30T13:31:13.137Z",
               "EditorCaption": ""
             }
           ]

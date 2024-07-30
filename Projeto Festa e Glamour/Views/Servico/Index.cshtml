@@ -1,881 +1,425 @@
-﻿
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/lib/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/index.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
 
 <body>
 
-    <!-------------------- Scroll-Top Area (Start) -------------------->
-    <a href="#home" class="scroll-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-    <header class="header">
 
-        <!-- Logo -->
-        <a class="logo" href="#home" style="display: flex; align-items: center; text-decoration: none;">
-            <img src="~/images/Home/LOGO.png" alt="About-Image"
-                 style="width: 50px; height: 50px; margin-right: 10px;">
-            <h2 style="margin: 0; font-size: 24px;">Festa e Glamour</h2>
-        </a>
+    <section class="maneger-page-section">
+        <div class="container page-maneger " style="background-color:#FFFFFF ;">
 
-        <nav class="navbar" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fas fa-home fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#home" style="margin-left: 10px;">Inicio</a>
-            </span>
+            <div class="add-user-button">
+                <h1 class="section-title cliente-title-maneger">Gerenciamento de serviço</h1>
+                <br />
+            </div>
 
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fas fa-info-circle fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#about" style="margin-left: 10px;">sobre</a>
-            </span>
-
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fas fa-gavel fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#service" style="margin-left: 10px;">Serviço</a>
-            </span>
-
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fas fa-window-restore fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#portfolio" style="margin-left: 10px;">Portfolio</a>
-            </span>
-
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fa fa-users fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#testimonial" style="margin-left: 10px;">Depoimento</a>
-            </span>
-
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fa fa-file fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#blog" style="margin-left: 10px;">Noticias</a>
-            </span>
-
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fa fa-phone-square fa-lg" aria-hidden="true" style="color:#deb11b"></i>
-                <a href="#contact" style="margin-left: 10px;">Contato</a>
-            </span>
-            <div class="dropdown" style="position: relative; display: inline-block;">
-                <span style="display: flex; align-items: center; margin-right: 20px;">
-                    <i class="fa fa-user" aria-hidden="true" style="color:#deb11b"></i>
-                    <a href="/Usuario/Login" style="margin-left: 10px;">Login</a>
-                </span>
-                <div class="dropdown-content"
-                     style="display: none; position: absolute; background-color: #f9f9f9; width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; padding: 8px; border-radius: 3%;">
-                    <a href="UsuarioIndex.html"
-                       style="color: #784a0b; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
-                        <i class="fa fa-users" aria-hidden="true" style="color:#deb11b"></i>
-                        Usuarios
-                    </a>
-                    <a href="AgendamentoIndex.html"
-                       style="color: #784a0b; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
-                        <i class="fa fa-calendar" aria-hidden="true" style="color:#deb11b"></i>
-                        Agendamento Admin
-                    </a>
-                    <a href="AgendamentoClienteIndex.html
-                        "
-                       style="color: #784a0b; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
-                        <i class="fa fa-calendar" aria-hidden="true" style="color:#deb11b"></i>
-                        Agendamento User
-                    </a>
-                    <a href="CadastroAgendamento.html"
-                       style="color: #784a0b; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
-                        <i class="fa fa-id-badge" aria-hidden="true" style="color:#deb11b"></i>
-                        Cadastro Agendamento
-                    </a>
-                    <a href="ServicoIndex.html"
-                       style="color: #784a0b; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
-                        <i class="fa fa-id-badge" aria-hidden="true" style="color:#deb11b"></i>
-                        Serviço
-                    </a>
-                    <a href="#logout"
-                       style="color: #784a0b; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
-                        <i class="fa fa-book" aria-hidden="true" style="color:#deb11b"></i>
-                        Relatório
-                    </a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group mb-4">
+                            <input id="filtro" type="text" class="form-control" placeholder="Pesquisar Produtos..."
+                                aria-label="Filtrar" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <!-- Alteração para "text-md-end" para alinhar à direita apenas em telas médias e maiores -->
+                        <button class="btn btn-success btn-lg" onclick="" data-bs-toggle="modal"
+                            data-bs-target="#InserirUsuario">
+                            <i class="fa fa-plus"></i> Adicionar serviços
+                        </button>
+                    </div>
                 </div>
             </div>
 
-        </nav>
+            <div class="table-container table-responsive">
+                <table id="TbClientes" class="table">
+                    <colgroup>
+                        <col class="tc-nome">
+                    </colgroup>
+                    <thead>
+                        <tr>
 
-        <!-- Menubar -->
-        <div class="fas fa-bars" id="menu-btn"></div>
+                            <th>#</th>
+                            <th>Nome do serviço</th>
+                            <th>Valor do serviço</th>
+                            
+                            <th style="color:blue; text-align: center;">Editar</th>
+                            <th style="color:red; text-align: center;">Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 
-    </header>
-    <section class="home" id="home">
+                        <tr>
+                            <td>id</td>
+                            <td>Nome do serviço</td>
+                            <td>Valor do serviço</td>
+                           
+                            <td class="text-center">
+                                <button class="btn btn-default"
+                                    onclick=""
+                                    data-bs-toggle="modal" data-bs-target="#EditarAgendamento">
+                                    <i class="fa fa-edit"></i>
+                                </button>
+                            </td>
+                            <td class="text-center">
+                                <button class="btn btn-default"
+                                    onclick=""
+                                    data-bs-toggle="modal" data-bs-target="#ExcluirUsuario">
+                                    <i class="fa fa-trash text-danger"></i>
+                                </button>
+                            </td>
+                        </tr>
 
-        <div class="box-container">
-
-            <div class="content">
-                <div class="text">
-                    <h2>
-                        Olá, seja bem vindo!</h1>
-                        <h1>FESTAS & GLAMOUR <span class="typing-text"></span></h1>
-                        <p>
-                            Transformamos cada evento em uma celebração inesquecível. Nossa missão é criar momentos
-                            mágicos e proporcionar experiências únicas através dos nossos serviços de alta qualidade.
-                            Oferecemos uma ampla gama de serviços para atender todas as suas necessidades e tornar a sua
-                            festa um verdadeiro sucesso.
-                        </p>
-                        <a href="#" class="btn">entre em contato <i class="fas fa-user"></i></a>
-                </div>
+                    </tbody>
+                </table>
             </div>
 
-            <div class="image">
-                <img src="~/images/Home/LOGO.png" alt="Home-Image">
+        </div>
+        <section class="container text-center">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <div>
+                    <button type="button" id="send-button2" class="nav-link active btn btn-danger btn-block"
+                        style="flex: 1; margin-left: 5px;" onclick="window.location.href = 'index.html';">
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="modal fade" id="InserirUsuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Adicionar  serviço
+
+
+
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome">Nome do Serviço</label>
+                                <input type="text" id="EdtNome" class="form-control" readonly>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Valor do Serviço</label>
+                                <input type="email" id="EdtEmail" class="form-control" readonly>
+                            </div>
+                            
+    
+                            <input type="hidden" id="IdEdt" value="">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary" onclick="InserirAgendamentoManutencao()">Adicionar</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </section>
-
-    <!-------------------- Home Area (End) -------------------->
-    <!-------------------- About Area (Start) -------------------->
-    <section class="about" id="about">
-
-        <div class="box-container">
-
-            <div class="image">
-                <img src="~/images/About/imagens about 2.jpg" alt="About-Image" />
-            </div>
-
-            <div class="content">
-
-                <h2>FESTAS & GLAMOUR.</h2>
-                <p>
-                    Na Festas & glamour, nos dedicamos a transformar suas ideias em realidade,
-                    proporcionando experiências inesquecíveis para você e seus convidados.
-                    Seja um aniversário, casamento, festa corporativa ou qualquer outra celebração,
-                    estamos aqui para tornar seu evento especial e memorável.
-
-                </p>
-
-                <div class="about-info">
-
-                    <div class="info">
-                        <h4>anos: <span>23</span></h4>
-                        <h4>ramos: <span>Eventos sociais</span></h4>
-                        <h4>pais <span>brasil</span></h4>
-                        <h4>trabalho: <span>Eventos Sociais</span></h4>
-
-
+        <div class="modal fade" id="EditarAgendamento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Editar Serviço</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome">Nome do Serviço</label>
+                                <input type="text" id="EdtNome" class="form-control" readonly>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email">Valor do Serviço</label>
+                                <input type="email" id="EdtEmail" class="form-control" readonly>
+                            </div>
 
-                    <div class="counting">
 
-                        <div class="box">
-                            <h1 class="count" data-count="4">4+</h1>
-                            <h3>anos de experiência</h3>
-                        </div>
 
-                        <div class="box">
-                            <h1 class="count" data-count="100">100+</h1>
-                            <h3>projetos concluídos</h3>
-                        </div>
+                            <input type="hidden" id="IdExc" class="form-control" placeholder="Digite seu nome..." readonly>
 
-                        <div class="box">
-                            <h1 class="count" data-count="80">80+</h1>
-                            <h3>clientes satisfeitos</h3>
-                        </div>
-
-                        <div class="box">
-                            <h1 class="count" data-count="20">20+</h1>
-                            <h3>Total prêmios ganhos</h3>
+                        </form>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" onclick="ExcluirUsuario()" class="btn btn-primary">Salvar</button>
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
-
-        </div>
-
-        <div class="skill-container">
-
-            <div class="heading">
-                <h2>Nossas <span>habilidades</span></h2>
             </div>
-
-            <div class="skills">
-                <div class="skill-item item1">
-                    <div class="box">
-                        <h3>Criação de Menus Personalizados<span> 95% </span> </h3>
-                        <div class="progress-bar"> <span></span> </div>
+        
+        <div class="modal fade" id="ExcluirUsuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLabel">Excluir Serviço</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="box">
-                        <h3>Decoração e Tematização de Eventos<span> 90% </span> </h3>
-                        <div class="progress-bar"> <span></span> </div>
-                    </div>
-                    <div class="box">
-                        <h3>Experiência Gastronômica de Alto Nível<span> 85% </span> </h3>
-                        <div class="progress-bar"> <span></span> </div>
-                    </div>
-                </div>
-
-                <div class="skill-item item2">
-                    <div class="box">
-                        <h3>Serviço de Catering Completo<span> 75% </span> </h3>
-                        <div class="progress-bar"> <span></span> </div>
-                    </div>
-                    <div class="box">
-                        <h3>Coordenação e Planejamento de Eventos<span> 65% </span> </h3>
-                        <div class="progress-bar"> <span></span> </div>
-                    </div>
-                    <div class="box">
-                        <h3>Animação e Entretenimento<span> 60% </span> </h3>
-                        <div class="progress-bar"> <span></span> </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!-------------------- About Area (End) -------------------->
-    <!-------------------- Qualification Area (Start) -------------------->
-    <section class="qualification">
-
-        <div class="heading">
-            <h2>Nossas <span>qualificações</span></h2>
-        </div>
-
-        <div class="box-container">
-
-            <div class="education">
-
-                <div class="experience-item">
-                    <i class="fas fa-graduation-cap"></i>
-                    <div class="content">
-                        <span>2015 - 2016</span>
-                        <h3>Qualidade e Variedade de Alimentos</h3>
-                        <p>
-                            Oferecer pratos de alta qualidade,
-                            preparados com ingredientes frescos e variados,
-                            para atender diferentes paladares e preferências alimentares,
-                            incluindo opções vegetarianas, veganas e sem glúten.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <i class="fas fa-graduation-cap"></i>
-                    <div class="content">
-                        <span>2016 - 2017</span>
-                        <h3>Serviço ao Cliente de Excelência</h3>
-                        <p>
-                            Equipa bem treinada,
-                            atenciosa e profissional,
-                            capaz de atender os clientes com simpatia e resolver qualquer problema que possa surgir
-                            durante o evento.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <i class="fas fa-graduation-cap"></i>
-                    <div class="content">
-                        <span>2017 - 2018</span>
-                        <h3>Flexibilidade e Personalização</h3>
-                        <p>
-                            Capacidade de adaptar-se às necessidades e preferências específicas de cada cliente,
-                            oferecendo menus personalizados e serviços adicionais conforme solicitado.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="experience">
-
-                <div class="experience-item">
-                    <i class="fas fa-briefcase"></i>
-                    <div class="content">
-                        <span>2018 - 2019</span>
-                        <h3>Pontualidade e Eficiência Logística</h3>
-                        <p>
-                            Garantir a entrega e montagem do buffet dentro dos prazos acordados,
-                            com uma logística bem planeada para evitar atrasos e inconvenientes.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <i class="fas fa-briefcase"></i>
-                    <div class="content">
-                        <span>2019 - 2020</span>
-                        <h3>Conformidade com Normas de Higiene e Segurança Alimentar</h3>
-                        <p>
-                            Seguir rigorosamente as normas de higiene e segurança alimentar,
-                            garantindo que todos os alimentos sejam preparados e servidos em condições seguras.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <i class="fas fa-briefcase"></i>
-                    <div class="content">
-                        <span>2020 - 2021</span>
-                        <h3>Reputação e Testemunhos Positivos</h3>
-                        <p>
-                            Ter um histórico comprovado de eventos bem-sucedidos e feedback positivo dos clientes,
-                            o que pode ser evidenciado através de avaliações,
-                            testemunhos e recomendações.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <!-------------------- Qualification Area (End) -------------------->
-    <!-------------------- Services Area (Start) -------------------->
-    <section class="service" id="service">
-
-        <div class="heading">
-            <h2>Nossos <span>serviços</span></h2>
-        </div>
-
-        <div class="box-container">
-
-            <div class="service-item">
-                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                <h3>Buffet Completo para Eventos</h3>
-                <p>
-                    Serviço que inclui a preparação,
-                    entrega,
-                    montagem e desmontagem do buffet,
-                    cobrindo todos os aspectos necessários para um evento bem-sucedido,
-                    como casamentos, aniversários, e eventos corporativos.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <i class="fa fa-hourglass-end" aria-hidden="true"></i>
-                <h3>Serviço de Coquetel</h3>
-                <p>
-                    Oferecer um menu variado de canapés,
-                    petiscos, e bebidas para eventos mais informais ou para recepções,
-                    garantindo uma experiência sofisticada e agradável.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <i class="fa fa-beer" aria-hidden="true"></i>
-                <h3>Serviço de Garçom e Bar</h3>
-                <p>
-                    Disponibilizar uma equipa de garçons e bartenders profissionais para servir alimentos e bebidas
-                    durante o evento,
-                    proporcionando um atendimento personalizado e eficiente.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <h3>Catering Empresarial</h3>
-                <p>
-                    Fornecer refeições e lanches para reuniões,
-                    conferências, e eventos corporativos,
-                    com opções que atendam a diferentes necessidades alimentares e
-                    preferências dos funcionários e convidados.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-                <h3>Menu Personalizado</h3>
-                <p>
-                    Oferecer a possibilidade de criar menus personalizados de acordo com os gostos,
-                    restrições alimentares e tema do evento,
-                    permitindo que os clientes tenham uma experiência única e adaptada às suas necessidades.
-                </p>
-            </div>
-
-            <div class="service-item">
-                <i class="fa fa-object-group" aria-hidden="true"></i>
-                <h3>Estações Temáticas e Interativas</h3>
-                <p>
-                    Montar estações de alimentos temáticas,
-                    como sushi, massas, churrasco, e sobremesas,
-                    onde os convidados podem interagir com os chefs e personalizar seus pratos conforme suas
-                    preferências.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-    <!-------------------- Services Area (End) -------------------->
-    <!-------------------- Portfolio Area (Start) -------------------->
-    <section class="portfolio" id="portfolio">
-
-        <div class="heading">
-            <h2>meu <span>portfólio</span></h2>
-        </div>
-
-        <div class="gallery">
-
-            <ul class="controls">
-                <li class="button btn active" data-filter="all">Todos</li>
-                <li class="button btn" data-filter="web">Mais vendidos</li>
-                <li class="button btn" data-filter="design">Mais Acessados</li>
-                <li class="button btn" data-filter="photography">Mais Comentados</li>
-            </ul>
-
-            <div class="box-container">
-
-                <div class="portfolio-item image web">
-                    <img src="~/images/Portfolio/portfolio-1.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>buffet completo para eventos</h4>
-                        <p>Alimentação</p>
-                        <a data-effect="mfp-newspaper" href="/images/Portfolio/portfolio-1.jpg"
-                           class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-item image web">
-                    <img src="~/images/Portfolio/portfolio-2.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>serviço de coquetel</h4>
-                        <p>Alimentação</p>
-                        <a data-effect="mfp-newspaper" href="~/images/Portfolio/portfolio-2.jpg"
-                           class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-item image design">
-                    <img src="~/images/Portfolio/portfolio-3.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>serviços de garçom e bar</h4>
-                        <p>Atendimento</p>
-                        <a data-effect="mfp-newspaper" href="/images/Portfolio/portfolio-3.jpg"
-                           class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-item image design">
-                    <img src="~/images/Portfolio/portfolio-4.png" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>Catering empresarial</h4>
-                        <p>Atendimento</p>
-                        <a data-effect="mfp-newspaper" href="~/images/Portfolio/portfolio-4.png"
-                           class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-                <div class="portfolio-item image photography">
-                    <img src="~/images/Portfolio/portfolio-5.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>menu personalizado</h4>
-                        <p>Atendimento</p>
-                        <a data-effect="mfp-newspaper" href="~/images/Portfolio/portfolio-5.jpg"
-                           class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-item image photography">
-                    <img src="~/images/Portfolio/portfolio-6.jpg" alt="Portfolio-Image" />
-                    <div class="content">
-                        <h4>estações tematica</h4>
-                        <p>Atendimento</p>
-                        <a data-effect="mfp-newspaper" href="~/images/Portfolio/portfolio-6.jpg"
-                           class="view-btn"><i class="fas fa-search-plus"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!-------------------- Portfolio Area (End) -------------------->
-    <!-------------------- Testimonials Area (Start) -------------------->
-    <section class="testimonial" id="testimonial">
-
-        <div class="heading">
-            <h2><span>comentários</span></h2>
-        </div>
-
-        <div class="swiper-container testimonial-slider">
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide testi-item">
-                    <img src="~/images/Testimonials/pic-1.png" alt="Testimonial-Pic" />
-
-                    <i class="fas fa-quote-left"></i>
-
-                    <p class="comment">
-                        "Festa e Glamour realmente transformou nosso evento em algo memorável!
-                        Desde a decoração impecável até os detalhes mais delicados,
-                        cada momento foi simplesmente deslumbrante."
-                    </p>
-
-                    <div class="intro">
-                        <h3>Pedro</h3>
-                        <h5>contador</h5>
-                    </div>
-                </div>
-
-                <div class="swiper-slide testi-item">
-                    <img src="~/images/Testimonials/pic-2.png" alt="Testimonial-Pic" />
-
-                    <i class="fas fa-quote-left"></i>
-
-                    <p class="comment">
-                        "Contratamos Festa e Glamour para nosso casamento e não poderíamos estar mais satisfeitos!
-                        Eles cuidaram de tudo com tanto profissionalismo e bom gosto que superaram todas as nossas
-                        expectativas."
-                    </p>
-
-                    <div class="intro">
-                        <h3>Luiz</h3>
-                        <h5>mecânico</h5>
-                    </div>
-                </div>
-
-                <div class="swiper-slide testi-item">
-                    <img src="~/images/Testimonials/pic-3.png" alt="Testimonial-Pic" />
-
-                    <i class="fas fa-quote-left"></i>
-
-                    <p class="comment">
-                        "A equipe da Festa e Glamour é incrível! Eles não apenas entendem nossas necessidades,
-                        mas também adicionam aquele toque especial que torna cada festa única e elegante."
-                    </p>
-
-                    <div class="intro">
-                        <h3>João</h3>
-                        <h5>Designer</h5>
-                    </div>
-                </div>
-
-                <div class="swiper-slide testi-item">
-                    <img src="~/images/Testimonials/pic-4.png" alt="Testimonial-Pic" />
-
-                    <i class="fas fa-quote-left"></i>
-
-                    <p class="comment">
-                        "Recomendo Festa e Glamour para qualquer ocasião especial.
-                        Eles não só criam uma atmosfera de luxo e sofisticação,
-                        mas também garantem que tudo flua perfeitamente, do início ao fim."
-                    </p>
-
-                    <div class="intro">
-                        <h3>Gabriela</h3>
-                        <h5>Dentista</h5>
-                    </div>
-                </div>
-
-                <div class="swiper-slide testi-item">
-                    <img src="~/images/Testimonials/pic-5.png" alt="Testimonial-Pic" />
-
-                    <i class="fas fa-quote-left"></i>
-
-                    <p class="comment">
-                        "Minha festa de aniversário foi um sucesso graças à Festa e Glamour!
-                        Eles cuidaram de todos os detalhes com tanto cuidado e atenção que eu pude relaxar e aproveitar
-                        a celebração com meus convidados."
-                    </p>
-
-                    <div class="intro">
-                        <h3>Estela</h3>
-                        <h5>médica</h5>
-                    </div>
-                </div>
-                <div class="swiper-slide testi-item">
-                    <img src="~/images/Testimonials/pic-6.png" alt="Testimonial-Pic" />
-
-                    <i class="fas fa-quote-left"></i>
-
-                    <p class="comment">
-                        "Festa e Glamour é sinônimo de excelência em eventos.
-                        Se você deseja uma festa que deixará seus convidados impressionados,
-                        não procure mais. Eles são simplesmente os melhores no que fazem!"
-                    </p>
-
-                    <div class="intro">
-                        <h3>Juliana</h3>
-                        <h5>modelo</h5>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-pagination swiper-pagination1"></div>
-
-        </div>
-    </section>
-    <!-------------------- Testimonials Area (End) -------------------->
-    <!-------------------- Blog Area (Start) -------------------->
-    <section class="blog" id="blog">
-
-        <div class="heading">
-            <h2>Notícias <span>sobre</span></h2>
-        </div>
-
-        <div class="swiper-container blog-slider">
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="~/images/Blogs/blog-1.png" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>22/04/2024</span></h5>
-                            <h5><i class="fas fa-user"></i><span>Por La cocina</span></h5>
+                    <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome">Nome do Serviço</label>
+                                    <input type="text" id="EdtNome" class="form-control" readonly>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email">Valor do Serviço</label>
+                                    <input type="email" id="EdtEmail" class="form-control" readonly>
+                                </div>
+                                
+                                
+                            
+                            <input type="hidden" id="IdExc" class="form-control" placeholder="Digite seu nome..." readonly>
+    
+                        </form>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            <button type="button" onclick="ExcluirUsuario()" class="btn btn-primary">Excluir</button>
                         </div>
-                        <a class="main-heading" href="#">
-                            Guia buffet para eventos
-                        </a>
-
-                        <p>
-                            Tipos de buffet ideais.
-                        </p>
-                        <a href="https://www.gazetadopovo.com.br/conteudo-publicitario/la-cocina/servico-de-buffet-para-eventos/"
-                           class="btn">Leia mais <i class="fas fa-arrow-right"></i></a>
+    
                     </div>
-                </div>
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="~/images/Blogs/blog-2.png" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>23/09/2020</span></h5>
-                            <h5><i class="fas fa-user"></i><span>Rafaela AmaralClaudia, Meireles</span></h5>
-                        </div>
-                        <a class="main-heading"
-                           href="https://www.metropoles.com/colunas/claudia-meireles/associacao-dos-buffets-do-df-promove-coquetel-intimista-de-oficializacao">
-                            Coquetel oficialização Buffets DF
-                        </a>
-                        <p>
-                            Empresários assinam estatuto Unique.
-                        </p>
-                        <a href="#" class="btn">Leia mais <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="~/images/Blogs/blog-3.png" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>26/03/2026</span></h5>
-                            <h5><i class="fas fa-user"></i><span>Por Raiane Sena</span></h5>
-                        </div>
-                        <a class="main-heading" href="#">
-                            Restaurante condenado por gorjetas
-                        </a>
-                        <p>
-                            Restaurante nega demissão injusta.
-                        </p>
-                        <a href="#" class="btn">Leia mais <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="~/images/Blogs/blog-4.png" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>28/03/2024</span></h5>
-                            <h5><i class="fas fa-user"></i><span>Por flávio Glavioli</span></h5>
-                        </div>
-                        <a class="main-heading"
-                           href="https://gazeta24h.com/catering-restaurantes-apostam-em-alimentacao-para-eventos-como-forma-de-diversificar-os-negocios/">
-                            Restaurantes diversificam com eventos.
-                        </a>
-                        <p>
-                            Catering: conveniência e qualidade.
-                        </p>
-                        <a href="#" class="btn">Leia mais <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="~/images/Blogs/blog-5.png" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>16/09/2020</span></h5>
-                            <h5><i class="fas fa-user"></i><span>Por Anacren de Téo</span></h5>
-                        </div>
-                        <a class="main-heading" href="#">
-                            Chefe prepara menu personalizado.
-                        </a>
-                        <p>
-
-                            Isolamento aproxima clientes chefs
-                        </p>
-                        <a href="https://www.gazetadopovo.com.br/vozes/panela-do-anacreon/chef-premiado-paulino-da-costa-prepara-menu-personalizado-para-cliente-finalizar-em-casa/#:~:text=Recluso%20em%20casa%2C%20como%20tantos,se%20elaborados%20antes%20e%20empacotados."
-                           class="btn">Leia mais <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="swiper-slide blog-item">
-                    <div class="image">
-                        <img src="~/images/Blogs/blog-6.png" alt="Blog-Image" />
-                    </div>
-                    <div class="content">
-                        <div class="intro">
-                            <h5><i class="fas fa-calendar-alt"></i><span>16/12/2023 </span></h5>
-                            <h5><i class="fas fa-user"></i><span>Por Vila Galé</span></h5>
-                        </div>
-                        <a class="main-heading" href="#">
-                            Funcionamento dos restaurantes temáticos.
-                        </a>
-                        <p>
-                            Chef destaca gastronomia Vila Galé.
-                        </p>
-                        <a href="https://g1.globo.com/sp/vale-do-paraiba-regiao/especial-publicitario/vila-gale/vila-gale-hoteis-e-resorts/noticia/2023/12/16/como-funcionam-os-restaurantes-tematicos-da-vila-gale.ghtml"
-                           class="btn">Leia mais <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-pagination swiper-pagination2"></div>
-
-        </div>
-
-    </section>
-    <!-------------------- Blog Area (End) -------------------->
-    <!-------------------- Contact Area (Start) -------------------->
-    <section class="contact" id="contact">
-
-        <div class="heading">
-            <h2>
-                <span>contato</span>
-
-            </h2>
-        </div>
-
-        <div class="box-container">
-
-            <div class="contact-info">
-
-                <h3>Entrar em contato</h3>
-
-                <p>Abaixo estão nossos canais de contatos</p>
-
-                <div class="info-item">
-                    <h4>telefone:</h4>
-                    <div class="detail">
-                        <div class="fas fa-phone"></div>
-                        <p>+61 98541-2092</p>
-                    </div>
-                    <div class="detail">
-                        <div class="fas fa-phone"></div>
-                        <p>+61 98341-4092</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <h4>email:</h4>
-                    <div class="detail">
-                        <div class="fas fa-envelope"></div>
-                        <p class="gmail">contato@festaglamour.com</p>
-                    </div>
-                    <div class="detail">
-                        <div class="fas fa-envelope"></div>
-                        <p class="gmail">festaglamour@contato.com</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <h4>linkedin:</h4>
-                    <div class="detail">
-                        <div class="fab fa-linkedin"></div>
-                        <p class="linkedin">https://www.linkedin.com/</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <h4>github:</h4>
-                    <div class="detail">
-                        <div class="fab fa-github"></div>
-                        <p class="github">https://github.com/</p>
-                    </div>
+    
                 </div>
             </div>
-
-            <form method="post" class="contact-form" id="contactUs-Form">
-
-                <input type="text" name="name" class="box" id="name" placeholder="nome" required />
-                <input type="email" name="email" class="box" id="email" placeholder="e-mail" required />
-                <input type="text" name="subject" class="box" id="subject" placeholder="assunto" required />
-                <textarea cols="30" rows="10" name="comment" id="comment" class="box" placeholder="mensagem"></textarea>
-                <button type="submit" class="btn" name="submit" id="submit">Enviar mensagem</button>
-
-                <span class="alert" id="msg"></span>
-
-            </form>
-
         </div>
 
-    </section>
-    <!-------------------- Contact Area (End) -------------------->
-    <!-------------------- Footer Area (Start) -------------------->
-    <footer>
-        <div class="social">
-            <a href="https://www.facebook.com/?locale=pt_BR" class="fab fa-facebook-f"></a>
-            <a href="https://x.com/?lang=pt-br" class="fab fa-twitter"></a>
-            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
-            <a href="https://br.linkedin.com/?src=go-pa&trk=sem-ga_campid.12619604099_asid.149519181115_crid.657343811713_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.9198389&mcid=6821526239111716925&cid=&gad_source=1&gclid=CjwKCAjwydSzBhBOEiwAj0XN4O3Ru27Qxs0EOm0f-PEGdDdjJqUO6Hmq4pAtNJitkwdieBAI-0UzlxoCIb8QAvD_BwE&gclsrc=aw.ds"
-               class="fab fa-linkedin-in"></a>
-        </div>
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
-        <div class="content">
-            <p>Criado por <span>Isac</span> | Todos direitos reservados</p>
-        </div>
-    </footer>
-    <!-------------------- Footer Area (End) -------------------->
-    <!-- Typed JS -->
-    <script src="~/vendors/typed/typed.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <script src="~/lib/swiper/swiper-bundle.min.js"></script>
 
-    <!---------------- Custom Script ---------------->
-    <!-- Typed Script -->
-    <script>
-        var typed = new Typed('.typing-text', {
+            <script src="~/lib/jquery/dist/jquery.min.js"></script>
 
-            strings: ['Serviços de Buffet', 'Decoração para Festa ', 'Serviços de Animação e Entretenimento', 'Fotografia e Filmagem Profissional', 'Aluguel de Mobiliário e Equipamentos', 'Planejamento e Coordenação de Eventos'],
-            typeSpeed: 120,
-            loop: true
-        });
-    </script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script>
 
-    <!-- Contact-Form Script -->
-    <script>
-        jQuery('#contactUs-Form').on('submit', function (e) {
-            jQuery('#msg').html('');
-            jQuery('#submit').html('Please wait');
-            jQuery('#submit').attr('disabled', true);
-            jQuery.ajax({
-                url: 'assets/php/submit.php',
-                type: 'post',
-                data: jQuery('#contactUs-Form').serialize(),
-                success: function (result) {
-                    jQuery('#msg').html(result);
-                    jQuery('#submit').html('Submit');
-                    jQuery('#submit').attr('disabled', false);
-                    jQuery('#contactUs-Form')[0].reset();
+                function definirEdt(id, Nome, Email, Senha, TipoUsuario, Telefone) {
+
+                    $('#IdEdt').val(id);
+                    $('#EditNome').val(Nome);
+                    $('#EditSenha').val(Senha);
+                    $('#EditEmail').val(Email);
+                    $('#EditTel').val(Telefone);
+
+
+                    var senhaValue = "";
+                    if (Senha) {
+                        $('#EditSenha').val(Senha);
+                        senhaValue = Senha;
+                    }
+
+
+                    if ($('#DropTipoUsuarioEdit').length > 0) {
+                        $('#DropTipoUsuarioEdit option').filter(function () {
+                            return $(this).val() === TipoUsuario;
+                        }).prop('selected', true);
+                        $('#DropTipoUsuarioEdit').trigger('chosen:updated');
+                    } else {
+                        console.error("DropDownList não encontrado.");
+                    }
                 }
-            });
-            e.preventDefault();
-        });
-    </script>
-    <script>
-        // Script to handle the dropdown functionality
-        document.querySelector('.dropdown').addEventListener('mouseover', function () {
-            this.querySelector('.dropdown-content').style.display = 'block';
-        });
 
-        document.querySelector('.dropdown').addEventListener('mouseout', function () {
-            this.querySelector('.dropdown-content').style.display = 'none';
-        });
-    </script>
+                function definirExc(id, Nome, Email, Telefone) {
+                    $('#IdExc').val(id);
+                    $('#ExcNome').val(Nome);
+                    $('#ExcEmail').val(Email);
+                    $('#ExcTel').val(Telefone)
+                }
+
+                function InserirUsuario() {
+
+                    var nome = $('#Nome').val();
+                    var email = $('#Email').val();
+                    var senha = $('#Senha').val();
+                    var telefone = $('#Telefone').val();
+                    var tipoUsuario = $('#DropTipoUsuario option:selected').val();
+
+                    if (nome.trim() === "") {
+                        alert("Por favor, preencha o campo Nome.");
+                        return;
+                    }
+                    if (senha.trim() === "") {
+                        alert("Por favor, preencha o campo Senha.");
+                        return;
+                    }
+                    if (email.trim() === "") {
+                        alert("Por favor, insira um email válido.");
+                        return;
+                    }
+
+                    if (tipoUsuario === "Escolha o Tipo de Usuário") {
+                        alert("Por favor, selecione o tipo de usuário.");
+                        return;
+                    }
+
+                    if (telefone.trim() === "") {
+                        alert("Por favor, insira um número de telefone válido.");
+                        return;
+                    }
+
+
+
+                    var dados = {
+                        Nome: nome,
+                        Email: email,
+                        Senha: senha,
+                        Telefone: telefone,
+                        TipoUsuario: tipoUsuario
+                    };
+
+                    // Faça a chamada AJAX
+                    $.ajax({
+                        url: '/Usuario/InserirUsuario',
+                        type: "POST",
+                        dataType: "json",
+                        data: dados,
+                        success: function (resultado) {
+                            if (resultado.success) {
+                                alert(resultado.message);  // Exibe a mensagem de sucesso
+                                // Fecha o modal
+                                $('#InserirUsuario').modal('hide');
+                                // Recarrega a págInserirUsuarioina
+                                location.reload();
+                            } else {
+                                alert(resultado.message);  // Exibe a mensagem de falha
+                            }
+                        },
+                        error: function () {
+                            alert('Erro na requisição AJAX.');
+                        }
+                    });
+                }
+
+                function AlterarUsuario() {
+                    var id = $("#IdEdt").val();
+                    var nome = $("#EditNome").val();
+                    var senha = $("#EditSenha").val();
+                    var email = $("#EditEmail").val();
+                    var tel = $('#EditTel').val();
+                    var tipoCli = $('#DropTipoUsuarioEdit').val(); // Obtém o valor do tipo de cliente, não apenas o texto
+
+                    // Validação do campo 'Nome'
+                    if (!nome) {
+                        alert("Por favor, preencha o campo Nome.");
+                        return;
+                    }
+
+                    // Validação do campo 'Senha'
+                    if (!senha) {
+                        alert("Por favor, preencha o campo Senha.");
+                        return;
+                    }
+
+                    // Validação do campo 'Email'
+                    if (!email) {
+                        alert("Por favor, preencha o campo Email.");
+                        return;
+                    }
+
+                    // Validação do campo 'Telefone'
+                    if (!tel) {
+                        alert("Por favor, preencha o campo Telefone.");
+                        return;
+                    }
+
+                    // Validação do campo 'Tipo de Cliente'
+                    if (!tipoCli) {
+                        alert("Por favor, selecione o Tipo de Cliente.");
+                        return;
+                    }
+
+                    // Crie um objeto com os dados
+                    var dados = {
+                        Id: id,
+                        Nome: nome,
+                        Senha: senha,
+                        Email: email,
+                        Telefone: tel,
+                        TipoUsuario: tipoCli
+                    };
+
+                    // Faça a chamada AJAX para o servidor
+                    $.ajax({
+                        type: "POST",
+                        url: "/Usuario/AlterarUsuario",
+                        contentType: "application/json; charset=utf-8",
+                        data: JSON.stringify(dados),
+                        success: function (response) {
+                            // Manipule a resposta do servidor
+                            if (response.success) {
+                                alert("Cliente alterado com sucesso!");
+                                // Feche o modal de edição se necessário
+                                $('#FormEditar').modal('hide');
+                                // Recarregue a página se necessário
+                                location.reload();
+                            } else {
+                                alert("Falha ao alterar cliente.");
+                            }
+                        },
+                        error: function (error) {
+                            // Manipule erros de requisição AJAX
+                            console.error("Erro na chamada AJAX:", error);
+                        }
+                    });
+                }
+
+                function ExcluirUsuario() {
+                    // Obtenha o ID do usuário a ser excluído
+                    var userId = $('#IdExc').val();
+
+                    // Faça uma requisição AJAX
+                    $.ajax({
+                        type: "POST",
+                        url: "/Usuario/ExcluirUsuario", // Substitua "Usuario" pelo nome do seu controller
+                        data: { id: userId },
+                        dataType: "json",
+                        success: function (response) {
+                            // A resposta do servidor está em response.success
+                            if (response.success) {
+                                // Feche o modal de exclusão
+                                $('#ExcluirUsuario').modal('hide');
+                                alert("Cliente excluido com sucesso!");
+
+                                // Recarregue a página
+                                location.reload();
+                            } else {
+                                alert("Falha ao excluir usuário.");
+                            }
+                        },
+                        error: function () {
+                            alert("Erro na requisição AJAX.");
+                        }
+                    });
+                }
+
+
+
+            </script>
+
+    </section>
+
 </body>
+
+</html>
